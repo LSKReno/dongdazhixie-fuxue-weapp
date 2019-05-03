@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "辅学者",
+    "enablePullDownRefresh": false,
+    "usingComponents": {
+        "van-field": "../../dist/field/index"
+    }
+}

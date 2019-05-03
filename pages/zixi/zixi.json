@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "自习人",
+    "enablePullDownRefresh": false,
+    "usingComponents": {
+        "van-field": "../../dist/field/index"
+    }
+}

@@ -1,0 +1,54 @@
+.home-bg {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50rpx 0;
+    box-sizing: border-box;
+    background-image: url(https://wx2.sinaimg.cn/mw1024/006hpJxDly1g2l257hzawj30u0190qv5.jpg);
+    opacity: 0.72;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.home-button {
+    border-style: solid;
+    border-width: 2rpx;
+    border-color: #6c9;
+    font-size: 50rpx;
+    color: #6c9;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 75rpx;
+    height: 80rpx;
+    width: 400rpx;
+    margin-top: 200rpx;
+    padding: none;
+    background: rgb(255, 255, 255);
+    border-radius: 80rpx;
+}
+
+.home-hover-button {
+    border-style: solid;
+    border-width: 2rpx;
+    border-color: #6c9;
+    font-size: 50rpx;
+    color: #d6fae2;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 75rpx;
+    height: 80rpx;
+    width: 400rpx;
+    margin-top: 200rpx;
+    padding: none;
+    background: #02ad3b;
+    border-radius: 80rpx;
+}
+
+.home-icon{
+    width: 50rpx;
+    height: 50rpx;
+}

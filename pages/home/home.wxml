@@ -1,0 +1,27 @@
+<!--text.wxml-->
+<!-- Home -->
+<view class='home-bg'>
+    <view class="grid">
+        <button class='home-button' hover-class='home-hover-button' bindtap='toDalao'>
+            <image src='../images/dalao.png' class='home-icon'></image>
+            <text>   我要辅学</text>
+        </button>
+        <button class='home-button' hover-class='home-hover-button' bindtap='toXuezha'>
+            <image src='../images/xuezha.png' class='home-icon'></image>
+            <text>   我要被辅学</text>
+        </button>
+        <button class='home-button' hover-class='home-hover-button' bindtap='toZixi'>
+            <image src='../images/zixi.png' class='home-icon'></image>
+            <text>   我要约自习</text>
+        </button>
+        <text>\n</text>
+        <text>\n</text>
+        <text>\n</text>
+        <text>\n</text>
+        <text>\n</text>
+        <text>\n</text>
+        <text>\n</text>
+
+    </view>
+
+</view>

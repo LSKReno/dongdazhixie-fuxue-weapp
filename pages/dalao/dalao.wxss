@@ -1,0 +1,59 @@
+/* pages/mine/mine.wxss */
+
+.profile-white-background {
+    background-color: #fff;
+}
+
+.dalao-information {
+    font-size: 60rpx;
+    color: rgb(136, 136, 136);
+    margin-top: 60rpx;
+    margin-bottom: 60rpx;
+    margin-left: 30rpx;
+}
+
+.picker-title {
+    font-size: 45rpx;
+    color: rgb(136, 136, 136);
+    margin-top: 15rpx;
+    margin-left: 20rpx;
+}
+
+.picker {
+    color: rgb(95, 93, 93);
+    margin-left: 20rpx;
+}
+
+.dalao-button {
+    border-style: solid;
+    border-width: 2rpx;
+    border-color: #66CC99;
+    font-size: 50rpx;
+    color: #66CC99;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 70rpx;
+    height: 80rpx;
+    width: 400rpx;
+    margin-top: 200rpx;
+    padding: none;
+    background: rgb(255, 255, 255);
+    border-radius: 80rpx;
+}
+
+.dalao-hover-button {
+    border-style: solid;
+    border-width: 2rpx;
+    border-color: #66CC99;
+    font-size: 50rpx;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 70rpx;
+    height: 80rpx;
+    width: 400rpx;
+    margin-top: 200rpx;
+    padding: none;
+    background: #093;
+    border-radius: 80rpx;
+}

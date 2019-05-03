@@ -1,0 +1,16 @@
+{
+    "pages": [
+        "pages/home/home",
+        "pages/dalao/dalao",
+        "pages/xuezha/xuezha",
+        "pages/zixi/zixi",
+        "pages/process/process"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#66CC99",
+        "navigationBarTitleText": "同桌的你",
+        "navigationBarTextStyle": "white"
+    },
+    "sitemapLocation": "sitemap.json"
+}

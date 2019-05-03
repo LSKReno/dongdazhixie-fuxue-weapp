@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "同桌的你",
+    "enablePullDownRefresh": false,
+    "usingComponents": {
+        "van-button": "../../dist/button/index"
+    }
+}

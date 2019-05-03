@@ -1,0 +1,34 @@
+<view class="profile-white-background">
+    <view>
+        <view class='zixi-information'>
+            <text>约自习者信息：</text>
+        </view>
+        <van-cell-group>
+            <van-field value="{{ stuid}}" name="zixi-stuid" placeholder="请输入学号..." label="学号" required size="large" left-icon="contact" bind:change="inputStuid" />
+            <text>\n</text>
+            <van-field value="{{ name }}" name="zixi-name" placeholder="请输入姓名..." label="姓名" required size="large" left-icon="other-pay" bind:change="inputName"/>
+            <text>\n</text>
+            <van-field value="{{ college }}" name="zixi-college" placeholder="请输入学院..." label="学院" required  size="large" left-icon="friends-o"bind:change="inputCollege"/>
+            <text>\n</text>
+            <van-field value="{{ qqmail}}" name="zixi-qqmail" placeholder="请输入QQ邮箱..." label="QQ邮箱" required size="large" left-icon="free-postage" bind:change="inputQQmail" />
+
+            <view class="section">
+                <view class="section__title">日期选择器</view>
+                <picker mode="date" value="{{date}}" start="2019-5-01" end="2020-05-01" bindchange="bindDateChange">
+                    <view class="picker">
+                        当前选择: {{date}}
+                    </view>
+                </picker>
+            </view>
+
+            <button class='zixi-button' hover-class='zixi-hover-button' bindtap='zixiSignin'>我要约自习</button>
+
+
+        </van-cell-group>
+
+
+
+    </view>
+
+
+</view>

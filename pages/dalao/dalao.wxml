@@ -1,0 +1,34 @@
+<view class="profile-white-background">
+    <view>
+        <view class='dalao-information'>
+            <text>辅学者信息：</text>
+        </view>
+        <van-cell-group>
+            <van-field value="{{ stuid}}" name="dalao-stuid" placeholder="请输入学号..." label="学号" required size="large" left-icon="contact" bind:change="inputStuid"/>
+            <text>\n</text>
+            <van-field value="{{ name }}" name="dalao-name" placeholder="请输入姓名..." label="姓名" required size="large" left-icon="other-pay"  bind:change="inputName"/>
+            <text>\n</text>
+            <van-field value="{{ college }}" name="dalao-college" placeholder="请输入学院..." label="学院" required  size="large" left-icon="friends-o" bind:change="inputCollege"/>
+            <text>\n</text>
+            <van-field value="{{ qqmail}}" name="dalao-qqmail" placeholder="请输入QQ邮箱..." label="QQ邮箱" required  size="large" left-icon="free-postage" bind:change="inputQQmail" />
+
+            <view class="section">
+                <view class="picker-title">选择辅学项目</view>
+                <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+                    <view class="picker">
+                        当前选择：{{multiArray[0][multiIndex[0]]}}，{{multiArray[1][multiIndex[1]]}}，{{multiArray[2][multiIndex[2]]}}
+                    </view>
+                </picker>
+            </view>
+
+            <button class='dalao-button' hover-class='dalao-hover-button' bindtap='dalaoSignin'>我要辅学</button>
+
+
+        </van-cell-group>
+
+
+
+    </view>
+
+
+</view>
